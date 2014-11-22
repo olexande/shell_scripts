@@ -1,16 +1,16 @@
-﻿echo off
+@echo off
 
 @echo off
 
-set LOGS="\\192.168.2.250\Other\Distribution\Logs"
+set LOGS="\\server\Other\Logs"
 
-SET Soft_Dest=C:\temp\Silab
-SET Soft_Source=\\192.168.2.250\Install\6_synevo\Distrib\SILAB32
-SET Soft_local_backup="C:\Program Files\Synevo_bac\"
-SET Soft_local="C:\Program Files\Synevo"
+SET Soft_Dest=C:\temp\soft
+SET Soft_Source=\\server\Install\Distrib\soft32
+SET Soft_local_backup="C:\Program Files\soft_bac\"
+SET Soft_local="C:\Program Files\soft"
 
 
-SET robocopy_source="\\192.168.2.250\Other\Distribution\robocopy\robocopy.exe"
+SET robocopy_source="\\server\install\Distrib\robocopy\robocopy.exe"
 SET robocopy_dest="C:\WINDOWS\system32"
 
 c:

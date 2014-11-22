@@ -1,4 +1,4 @@
-SET robocopy_source="\\192.168.2.250\Other\Distribution\robocopy\robocopy.exe"
+SET robocopy_source="\\server\Other\Distribution\robocopy\robocopy.exe"
 SET robocopy_dest="C:\WINDOWS\system32"
  
 c:

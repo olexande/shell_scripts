@@ -1,11 +1,11 @@
 @echo off
-set LOGS="\\192.168.2.250\Other\Distribution\Logs"
+set LOGS="\\server\Other\Logs"
 
-SET Property_Dest=d:\Distrib\Silaby_all\
-SET Property_Source=\\192.168.2.250\Install\6_synevo\Distrib\Silaby_all
+SET Property_Dest=d:\Distrib\soft_all\
+SET Property_Source=\\server\Install\Distrib\soft_all
 
 
-SET robocopy_source="\\192.168.2.250\Other\Distribution\robocopy\robocopy.exe"
+SET robocopy_source="\\server\install\Distrib\robocopy\robocopy.exe"
 SET robocopy_dest="C:\WINDOWS\system32"
  
 c:
@@ -20,7 +20,7 @@ echo %Property_Source%
 echo %Property_Dest%
 :skip_test
 
-if not exist D:\distrib\Silaby_all\ goto localproperty
+if not exist D:\distrib\soft_all\ goto localproperty
 goto remoteproperty
 
 :localproperty
